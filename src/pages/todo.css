@@ -1,0 +1,103 @@
+/* body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.mainpage{
+    padding: 48px 64px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.displayname{
+    color: black;
+    font-size: 30px;
+    font-weight: 700px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.todo-btn{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 14px;
+    height: 48px;
+    border-radius: 105px;
+    width: 202px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+} */
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.mainpage {
+    padding: 48px 64px;
+}
+
+.header {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.displayname {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.todo-btn {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 13px 14px;
+    height: 48px;
+    border-radius: 105px;
+    width: 202px;
+    margin-left: auto;
+    border: none; /* Ensure no border shows */
+    cursor: pointer; /* Change cursor to pointer */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.todo-btn:hover {
+    background-color: #333; /* Darken on hover */
+ .todo-container {
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width for the to-do list */
+    }
+    
+}
